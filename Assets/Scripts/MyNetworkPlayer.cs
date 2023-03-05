@@ -33,7 +33,10 @@ public class MyNetworkPlayer : NetworkBehaviour
     private void CmdSetDisplayName(string newDisplayName)
     {
         //Can do server validation here
+        if(newDisplayName.Length > 20 || newDisplayName.Length <= 2) return;
+
         SetDisplayName(newDisplayName);
+
         RpcLogName(newDisplayName);
     }
 
