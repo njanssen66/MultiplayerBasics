@@ -67,6 +67,8 @@ MonoBehaviour:
   syncDirection: 0
   syncMode: 0
   syncInterval: 0.1
+  displayNameText: {fileID: 1343851526379707997}
+  displayColorRenderer: {fileID: 2406418257355886347}
   displayName: Missing name
   displayColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &4978751391397254655
